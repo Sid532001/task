@@ -28,7 +28,7 @@ const gender = 'Male'
 // });
  
 // connection.end();
-function total(){
+
 
 let browserOpen = puppeteer.launch(
     {
@@ -115,8 +115,5 @@ let browserOpen = puppeteer.launch(
              page.close()
              broswer_close.close()
              
-         })}
+         })
 
-
-
- total();
